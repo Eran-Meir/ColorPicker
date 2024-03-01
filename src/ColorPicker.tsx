@@ -11,11 +11,12 @@ function ColorPicker() {
         <div className="color-picker-container">
             <h1>Color Picker</h1>
             <div className="color-display" style={{backgroundColor: color}}>
-                <p>Selected Color: {color}</p>
+                <p>Selected Color: {color.toUpperCase()}</p>
             </div>
             <label>Select a color:</label>
-            <input type="color" value="color" onChange={handleColorChange}/>
+            <input type="color" value={color} onChange={handleColorChange}/>
         </div>
     )
 }
+
 export default ColorPicker

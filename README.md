@@ -1,1 +1,1 @@
-# Color Picker Exercise
+# React Color Picker
